@@ -14,6 +14,8 @@ public class Contador{
 		}catch(ParametrosInvalidosException e){
 			e.printStackTrace();
 		}
+		
+		scan.close();
 
 	}
 	public static void contar(int num1, int num2) throws ParametrosInvalidosException{
